@@ -1331,4 +1331,58 @@ header {
     header .cart:last-child:not(:first-child) {
       float: right; }
 
+body section {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+  body section::before, body section::after {
+    content: ' ';
+    display: table; }
+  body section::after {
+    clear: both; }
+  body section #feature {
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      body section #feature {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    body section #feature:last-child:not(:first-child) {
+      float: right; }
+  body section #lunacy {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      body section #lunacy {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    body section #lunacy:last-child:not(:first-child) {
+      float: right; }
+  body section #events {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      body section #events {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    body section #events:last-child:not(:first-child) {
+      float: right; }
+  body section #merch {
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      body section #merch {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    body section #merch:last-child:not(:first-child) {
+      float: right; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,36 @@
+body{
+
+    section{
+        @include grid-row();
+       
+
+        #feature{
+            @include grid-column(12);
+        }
+
+
+        #lunacy{
+            @include grid-column(8);
+        }
+
+        #events{
+            @include grid-column(4);
+        }
+
+        #merch{
+            @include grid-column(12);
+        }
+
+} 
+
+
+
+}
+
+
+
+
+
+
+
+
