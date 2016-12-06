@@ -1384,5 +1384,16 @@ body section {
         padding-right: 0.9375rem; } }
     body section #merch:last-child:not(:first-child) {
       float: right; }
+  body section #notes {
+    width: 25%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      body section #notes {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    body section #notes:last-child:not(:first-child) {
+      float: right; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -21,6 +21,10 @@ body{
             @include grid-column(12);
         }
 
+        #notes{
+            @include grid-column(3);
+        }
+
 } 
 
 
