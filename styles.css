@@ -1344,7 +1344,11 @@ body section {
     width: 100%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    background-image: url("http://cdn.thejournalshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/n/fn21-pitchblack1web/Field-Notes-Memo-Books-Pitch-Black-32.jpg");
+    padding: 150px;
+    text-align: center;
+    color: white; }
     @media screen and (min-width: 40em) {
       body section #feature {
         padding-left: 0.9375rem;
@@ -1355,7 +1359,11 @@ body section {
     width: 66.66667%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaz5eYDzmFKjgouSP549j3yj9WL5I7NjHfZ548aLqkeXUF_Kht");
+    padding: 50px;
+    text-align: center;
+    color: white; }
     @media screen and (min-width: 40em) {
       body section #lunacy {
         padding-left: 0.9375rem;

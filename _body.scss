@@ -2,15 +2,23 @@ body{
 
     section{
         @include grid-row();
-       
+    
 
         #feature{
             @include grid-column(12);
+             background-image: url("http://cdn.thejournalshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/n/fn21-pitchblack1web/Field-Notes-Memo-Books-Pitch-Black-32.jpg");
+             padding:150px;
+             text-align:center;
+             color:$primary-background-color;
         }
 
 
         #lunacy{
             @include grid-column(8);
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaz5eYDzmFKjgouSP549j3yj9WL5I7NjHfZ548aLqkeXUF_Kht");
+            padding:50px;
+            text-align:center;
+            color:$primary-background-color;
         }
 
         #events{
@@ -26,7 +34,7 @@ body{
         }
       
 
-} 
+}
 
 
 
