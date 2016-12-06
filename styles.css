@@ -1374,7 +1374,11 @@ body section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSi3KfLr3kMcSDw0bZ2-G4SED2RsJnLsqig_Rz9twNUA-JwzPal");
+    padding: 50px;
+    text-align: center;
+    color: white; }
     @media screen and (min-width: 40em) {
       body section #events {
         padding-left: 0.9375rem;
@@ -1385,24 +1389,32 @@ body section {
     width: 100%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center; }
     @media screen and (min-width: 40em) {
       body section #merch {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     body section #merch:last-child:not(:first-child) {
       float: right; }
+    body section #merch h2 {
+      color: rosybrown; }
   body section #notes {
     width: 25%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gray; }
     @media screen and (min-width: 40em) {
       body section #notes {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     body section #notes:last-child:not(:first-child) {
       float: right; }
+    body section #notes p {
+      color: red; }
 
 footer section {
   max-width: 75rem;

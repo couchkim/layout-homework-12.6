@@ -23,14 +23,31 @@ body{
 
         #events{
             @include grid-column(4);
+            background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSi3KfLr3kMcSDw0bZ2-G4SED2RsJnLsqig_Rz9twNUA-JwzPal");
+            padding:50px;
+            text-align:center;
+            color:$primary-background-color;
         }
 
         #merch{
             @include grid-column(12);
+            text-align:center;
+                
+                h2{
+                color:rosybrown;
+                }
         }
 
         #notes{
             @include grid-column(3);
+            text-align:center;
+            font-weight:bold;
+            border:1px solid gray;
+
+            p{
+                color:red;
+            }
+
         }
       
 
