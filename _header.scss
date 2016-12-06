@@ -1,0 +1,20 @@
+
+header{
+    @include grid-row();
+
+
+.mail{
+    @include grid-column(4);
+}
+
+.center{
+    @include grid-column(4);
+}
+
+.cart{
+    @include grid-column(4);
+}
+
+
+
+}
