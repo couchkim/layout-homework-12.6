@@ -1396,4 +1396,135 @@ body section {
     body section #notes:last-child:not(:first-child) {
       float: right; }
 
+footer section {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+  footer section::before, footer section::after {
+    content: ' ';
+    display: table; }
+  footer section::after {
+    clear: both; }
+  footer section #made {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #made {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #made:last-child:not(:first-child) {
+      float: right; }
+  footer section #title {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #title {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #title:last-child:not(:first-child) {
+      float: right; }
+  footer section #durable {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #durable {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #durable:last-child:not(:first-child) {
+      float: right; }
+  footer section #product {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #product {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #product:last-child:not(:first-child) {
+      float: right; }
+  footer section #limited {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #limited {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #limited:last-child:not(:first-child) {
+      float: right; }
+  footer section #quote {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #quote {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #quote:last-child:not(:first-child) {
+      float: right; }
+  footer section #subscribe {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #subscribe {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #subscribe:last-child:not(:first-child) {
+      float: right; }
+  footer section #icons {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #icons {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #icons:last-child:not(:first-child) {
+      float: right; }
+  footer section #copyright {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #copyright {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #copyright:last-child:not(:first-child) {
+      float: right; }
+  footer section #address {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #address {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #address:last-child:not(:first-child) {
+      float: right; }
+  footer section #print {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    @media screen and (min-width: 40em) {
+      footer section #print {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    footer section #print:last-child:not(:first-child) {
+      float: right; }
+
 /*# sourceMappingURL=styles.css.map */

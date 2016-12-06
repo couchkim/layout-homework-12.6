@@ -1,0 +1,64 @@
+footer{
+
+    section{
+        @include grid-row;
+     
+    
+        #made{
+            @include grid-column(4);
+        }
+
+        #title{
+            @include grid-column(4);
+        }
+
+        #durable{
+            @include grid-column(4);
+        }
+
+        #product{
+            @include grid-column(2);
+        }
+
+        #limited{
+            @include grid-column(2);
+        }
+
+        #quote{
+            @include grid-column(4);
+        }
+
+        #subscribe{
+            @include grid-column(4);
+        }
+
+        #icons{
+            @include grid-column(2);
+        }
+
+        #copyright{
+            @include grid-column(4);
+        }
+
+        #address{
+            @include grid-column(4);
+        }
+
+        #print{
+            @include grid-column(4);
+        }
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+}
