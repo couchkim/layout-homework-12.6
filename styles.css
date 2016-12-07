@@ -1419,7 +1419,8 @@ body section {
 footer section {
   max-width: 75rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk1Q1jtDp7ldDv-tCBAOwrybFOTz3cCz7kUHrS7ZQizQ0xT0iPRN-V9ro); }
   footer section::before, footer section::after {
     content: ' ';
     display: table; }
@@ -1429,7 +1430,9 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: left;
+    font-size: 0.8em; }
     @media screen and (min-width: 40em) {
       footer section #made {
         padding-left: 0.9375rem;
@@ -1440,7 +1443,10 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: 2em; }
     @media screen and (min-width: 40em) {
       footer section #title {
         padding-left: 0.9375rem;
@@ -1451,7 +1457,9 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: right;
+    font-size: 0.8em; }
     @media screen and (min-width: 40em) {
       footer section #durable {
         padding-left: 0.9375rem;
@@ -1462,29 +1470,43 @@ footer section {
     width: 16.66667%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    margin: 0;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold; }
     @media screen and (min-width: 40em) {
       footer section #product {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #product:last-child:not(:first-child) {
       float: right; }
+    footer section #product li {
+      list-style-type: none; }
   footer section #limited {
     width: 16.66667%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    margin: 0;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold; }
     @media screen and (min-width: 40em) {
       footer section #limited {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #limited:last-child:not(:first-child) {
       float: right; }
+    footer section #limited li {
+      list-style-type: none; }
   footer section #quote {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    font-size: 0.8em;
+    text-align: center; }
     @media screen and (min-width: 40em) {
       footer section #quote {
         padding-left: 0.9375rem;
@@ -1495,29 +1517,43 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    font-size: .7em;
+    text-align: left;
+    font-weight: bold; }
     @media screen and (min-width: 40em) {
       footer section #subscribe {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #subscribe:last-child:not(:first-child) {
       float: right; }
+    footer section #subscribe h4 {
+      color: red; }
+    footer section #subscribe input[type=text] {
+      color: darkgray; }
   footer section #icons {
     width: 16.66667%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center;
+    padding: 30px;
+    margin: 5px; }
     @media screen and (min-width: 40em) {
       footer section #icons {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #icons:last-child:not(:first-child) {
       float: right; }
+    footer section #icons img {
+      display: inline-block;
+      width: 15%; }
   footer section #copyright {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: left; }
     @media screen and (min-width: 40em) {
       footer section #copyright {
         padding-left: 0.9375rem;
@@ -1528,7 +1564,10 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black; }
     @media screen and (min-width: 40em) {
       footer section #address {
         padding-left: 0.9375rem;
@@ -1539,12 +1578,17 @@ footer section {
     width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: right; }
     @media screen and (min-width: 40em) {
       footer section #print {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #print:last-child:not(:first-child) {
       float: right; }
+footer .last {
+  border-top: 2px solid black;
+  font-size: .7em;
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
