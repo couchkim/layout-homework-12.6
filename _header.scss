@@ -4,15 +4,54 @@ header{
 
 
 .mail{
-    @include grid-column(4);
+    @include grid-column(3);
+    vertical-align:top;
+    font-size:$footer-font-size;
+    color:brown;
+    font-weight:bold;
+
+        img{
+            width:10%;
+            display:inline-block;
+        }
+
+        p{
+            display:inline-block;
+        }
 }
 
 .center{
-    @include grid-column(4);
+    @include grid-column(6);
+    text-align:center;
+
+    ul{
+        display:flex;
+        flex-direction:row;
+        
+
+        li{
+            list-style-type:none;
+            padding:10px;
+            color:rosybrown;
+            font-weight:bold;
+        }
+
+        h1{
+            font-size:$large-font-size;
+        }
+
+    }
 }
 
 .cart{
-    @include grid-column(4);
+    @include grid-column(3);
+    text-align:right;
+
+    p{
+        display:inline-block;
+        padding:10px;
+    }
+
 }
 
 

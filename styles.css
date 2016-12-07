@@ -1298,38 +1298,62 @@ header {
   header::after {
     clear: both; }
   header .mail {
-    width: 33.33333%;
+    width: 25%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    vertical-align: top;
+    font-size: 0.8em;
+    color: brown;
+    font-weight: bold; }
     @media screen and (min-width: 40em) {
       header .mail {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     header .mail:last-child:not(:first-child) {
       float: right; }
+    header .mail img {
+      width: 10%;
+      display: inline-block; }
+    header .mail p {
+      display: inline-block; }
   header .center {
-    width: 33.33333%;
+    width: 50%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: center; }
     @media screen and (min-width: 40em) {
       header .center {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     header .center:last-child:not(:first-child) {
       float: right; }
+    header .center ul {
+      display: flex;
+      flex-direction: row; }
+      header .center ul li {
+        list-style-type: none;
+        padding: 10px;
+        color: rosybrown;
+        font-weight: bold; }
+      header .center ul h1 {
+        font-size: 2em; }
   header .cart {
-    width: 33.33333%;
+    width: 25%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; }
+    padding-right: 0.625rem;
+    text-align: right; }
     @media screen and (min-width: 40em) {
       header .cart {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     header .cart:last-child:not(:first-child) {
       float: right; }
+    header .cart p {
+      display: inline-block;
+      padding: 10px; }
 
 body section {
   max-width: 75rem;
@@ -1348,7 +1372,8 @@ body section {
     background-image: url("http://cdn.thejournalshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/n/fn21-pitchblack1web/Field-Notes-Memo-Books-Pitch-Black-32.jpg");
     padding: 150px;
     text-align: center;
-    color: white; }
+    color: white;
+    font-weight: bold; }
     @media screen and (min-width: 40em) {
       body section #feature {
         padding-left: 0.9375rem;
