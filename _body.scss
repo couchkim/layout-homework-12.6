@@ -15,7 +15,13 @@ body{
 
 
         #lunacy{
-            @include grid-column(8);
+            @include grid-column(12);
+
+            @include breakpoint($large-screen-size){    
+                @include grid-column(8);
+            }
+
+           
             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaz5eYDzmFKjgouSP549j3yj9WL5I7NjHfZ548aLqkeXUF_Kht");
             padding:50px;
             text-align:center;
@@ -23,7 +29,12 @@ body{
         }
 
         #events{
-            @include grid-column(4);
+            @include grid-column(12);
+
+            @include breakpoint($large-screen-size){    
+                @include grid-column(4);
+            }
+            
             background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSi3KfLr3kMcSDw0bZ2-G4SED2RsJnLsqig_Rz9twNUA-JwzPal");
             padding:50px;
             text-align:center;
@@ -40,7 +51,13 @@ body{
         }
 
         #notes{
-            @include grid-column(3);
+            @include grid-column(6);
+
+            @include breakpoint($large-screen-size){    
+                @include grid-column(3);
+            }
+            
+
             text-align:center;
             font-weight:bold;
             border:1px solid gray;

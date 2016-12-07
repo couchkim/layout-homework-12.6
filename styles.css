@@ -1298,27 +1298,32 @@ header {
   header::after {
     clear: both; }
   header .mail {
-    width: 25%;
-    float: left;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    vertical-align: top;
-    font-size: 0.8em;
-    color: brown;
-    font-weight: bold; }
-    @media screen and (min-width: 40em) {
+    display: none; }
+    @media screen and (min-width: 50em) {
       header .mail {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
-    header .mail:last-child:not(:first-child) {
-      float: right; }
-    header .mail img {
-      width: 10%;
-      display: inline-block; }
-    header .mail p {
-      display: inline-block; }
+        width: 25%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        display: block;
+        vertical-align: top;
+        font-size: 0.8em;
+        color: brown;
+        font-weight: bold; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    header .mail {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        header .mail:last-child:not(:first-child) {
+          float: right; }
+        header .mail img {
+          width: 10%;
+          display: inline-block; }
+        header .mail p {
+          display: inline-block; } }
   header .center {
-    width: 50%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1329,6 +1334,19 @@ header {
         padding-right: 0.9375rem; } }
     header .center:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      header .center {
+        width: 50%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    header .center {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        header .center:last-child:not(:first-child) {
+          float: right; } }
     header .center ul {
       display: flex;
       flex-direction: row; }
@@ -1340,20 +1358,25 @@ header {
       header .center ul h1 {
         font-size: 2em; }
   header .cart {
-    width: 25%;
-    float: left;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    text-align: right; }
-    @media screen and (min-width: 40em) {
+    display: none; }
+    @media screen and (min-width: 50em) {
       header .cart {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
-    header .cart:last-child:not(:first-child) {
-      float: right; }
-    header .cart p {
-      display: inline-block;
-      padding: 10px; }
+        width: 25%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        display: block;
+        text-align: right; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    header .cart {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        header .cart:last-child:not(:first-child) {
+          float: right; }
+        header .cart p {
+          display: inline-block;
+          padding: 10px; } }
 
 body section {
   max-width: 75rem;
@@ -1381,7 +1404,7 @@ body section {
     body section #feature:last-child:not(:first-child) {
       float: right; }
   body section #lunacy {
-    width: 66.66667%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1395,8 +1418,21 @@ body section {
         padding-right: 0.9375rem; } }
     body section #lunacy:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      body section #lunacy {
+        width: 66.66667%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    body section #lunacy {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        body section #lunacy:last-child:not(:first-child) {
+          float: right; } }
   body section #events {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1410,6 +1446,19 @@ body section {
         padding-right: 0.9375rem; } }
     body section #events:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      body section #events {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    body section #events {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        body section #events:last-child:not(:first-child) {
+          float: right; } }
   body section #merch {
     width: 100%;
     float: left;
@@ -1425,7 +1474,7 @@ body section {
     body section #merch h2 {
       color: rosybrown; }
   body section #notes {
-    width: 25%;
+    width: 50%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1438,6 +1487,19 @@ body section {
         padding-right: 0.9375rem; } }
     body section #notes:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      body section #notes {
+        width: 25%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    body section #notes {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        body section #notes:last-child:not(:first-child) {
+          float: right; } }
     body section #notes p {
       color: red; }
 
@@ -1492,7 +1554,7 @@ footer section {
     footer section #durable:last-child:not(:first-child) {
       float: right; }
   footer section #product {
-    width: 16.66667%;
+    width: 50%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1506,10 +1568,23 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #product:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #product {
+        width: 16.66667%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #product {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #product:last-child:not(:first-child) {
+          float: right; } }
     footer section #product li {
       list-style-type: none; }
   footer section #limited {
-    width: 16.66667%;
+    width: 50%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1523,10 +1598,23 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #limited:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #limited {
+        width: 16.66667%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #limited {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #limited:last-child:not(:first-child) {
+          float: right; } }
     footer section #limited li {
       list-style-type: none; }
   footer section #quote {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1538,8 +1626,21 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #quote:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #quote {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #quote {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #quote:last-child:not(:first-child) {
+          float: right; } }
   footer section #subscribe {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1552,12 +1653,25 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #subscribe:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #subscribe {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #subscribe {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #subscribe:last-child:not(:first-child) {
+          float: right; } }
     footer section #subscribe h4 {
       color: red; }
     footer section #subscribe input[type=text] {
       color: darkgray; }
   footer section #icons {
-    width: 16.66667%;
+    width: 33.33333%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1570,23 +1684,50 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #icons:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #icons {
+        width: 16.66667%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #icons {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #icons:last-child:not(:first-child) {
+          float: right; } }
     footer section #icons img {
       display: inline-block;
       width: 15%; }
   footer section #copyright {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
-    text-align: left; }
+    text-align: center; }
     @media screen and (min-width: 40em) {
       footer section #copyright {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #copyright:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #copyright {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        text-align: left; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #copyright {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #copyright:last-child:not(:first-child) {
+          float: right; } }
   footer section #address {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -1599,18 +1740,45 @@ footer section {
         padding-right: 0.9375rem; } }
     footer section #address:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #address {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #address {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #address:last-child:not(:first-child) {
+          float: right; } }
   footer section #print {
-    width: 33.33333%;
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
-    text-align: right; }
+    text-align: center; }
     @media screen and (min-width: 40em) {
       footer section #print {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem; } }
     footer section #print:last-child:not(:first-child) {
       float: right; }
+    @media screen and (min-width: 50em) {
+      footer section #print {
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        text-align: right; } }
+  @media screen and (min-width: 50em) and (min-width: 40em) {
+    footer section #print {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+    @media screen and (min-width: 50em) {
+        footer section #print:last-child:not(:first-child) {
+          float: right; } }
 footer .last {
   border-top: 2px solid black;
   font-size: .7em;

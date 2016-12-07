@@ -4,31 +4,41 @@ header{
 
 
 .mail{
-    @include grid-column(3);
-    vertical-align:top;
-    font-size:$footer-font-size;
-    color:brown;
-    font-weight:bold;
+            
+            display:none;
 
-        img{
-            width:10%;
-            display:inline-block;
-        }
+            @include breakpoint($large-screen-size){    
+                @include grid-column(3);
+                display:block;
+            vertical-align:top;
+            font-size:$footer-font-size;
+            color:brown;
+            font-weight:bold;
 
-        p{
-            display:inline-block;
+            img{
+                width:10%;
+                display:inline-block;
+            }
+
+            p{
+                display:inline-block;
+            }
         }
 }
 
 .center{
-    @include grid-column(6);
+
+    @include grid-column(12);
+
+    @include breakpoint($large-screen-size){    
+                @include grid-column(6);
+    }
     text-align:center;
 
     ul{
         display:flex;
         flex-direction:row;
         
-
         li{
             list-style-type:none;
             padding:10px;
@@ -44,16 +54,20 @@ header{
 }
 
 .cart{
-    @include grid-column(3);
-    text-align:right;
 
-    p{
-        display:inline-block;
-        padding:10px;
-    }
+     display:none;
+
+            @include breakpoint($large-screen-size){    
+                @include grid-column(3);
+                display:block;
+                text-align:right;
+
+             p{
+                display:inline-block;
+                padding:10px;
+            }
+
+        }
 
 }
-
-
-
 }
